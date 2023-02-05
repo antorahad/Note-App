@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note App</title>
+    <!--Favicon link-->
+    <link rel="icon" type="image/png" href="note.png">
+    <!--Css link-->
+    <link rel="stylesheet" href="style.css">
+    <!--Fontawesome CDN link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <!--Note app start-->
+    <div class="container">
+        <div class="wrapper">
+            <div class="left">
+               <span class="add_card">
+                <i class="fas fa-plus-circle"></i>
+               </span>
+               <ul class="card_themes">
+                <li class="card_theme" style="--i: 1; background-color: #F55050;"></li>
+                <li class="card_theme" style="--i: 2; background-color: #FF9551;"></li>
+                <li class="card_theme" style="--i: 3; background-color: #FFF56D;"></li>
+                <li class="card_theme" style="--i: 4; background-color: #BFDB38;"></li>
+                <li class="card_theme" style="--i: 5; background-color: #30AADD;"></li>
+               </ul>
+            </div>
+            <div class="right">
+                <div>
+                    <h1>Notes</h1>
+                </div>
+                <div class="card_container">
+                    <div class="card card_template">
+                        <i class="fas fa-plus" style="font-size:30px;"></i><br>
+                        Add Card
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Note app end-->
+    <!--JavaScript link-->
+    <script src="main.js"></script>
+</body>
+</html>
