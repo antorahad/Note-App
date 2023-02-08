@@ -51,8 +51,6 @@ body{
 .card_container{
     width: 100%;
     height: 400px;
-    min-height: 100px;
-    max-height: 450px;
     overflow-y: scroll;
     padding: 40px 0;
     display: grid;
